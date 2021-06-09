@@ -13,7 +13,8 @@ namespace Mp3TagReader
             var config = InitConfig();
 
             //new SaveToJson(config);
-            new SaveToDb(config);
+            //new SaveToDb(config);
+            new PopulateCoverThumbs(config);
         }
 
         private static Settings InitConfig()

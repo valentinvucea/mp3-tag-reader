@@ -9,6 +9,8 @@ namespace Mp3TagReader.Models
         [Required]
         public byte[] Img { get; set; }
 
+        public byte[] Thumb { get; set; }        
+
         [Required]
         public int SongId { get; set; }
 
